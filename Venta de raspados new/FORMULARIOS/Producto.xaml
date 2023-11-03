@@ -1,0 +1,26 @@
+﻿<Window x:Class="Venta_de_raspados_new.FORMULARIOS.Producto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Venta_de_raspados_new.FORMULARIOS"
+        mc:Ignorable="d"
+        Title="Producto" Height="450" Width="800">
+    <Grid>
+        <Label Content="PRODUCTO ID:&#xD;&#xA;" HorizontalAlignment="Left" Margin="36,49,0,0" VerticalAlignment="Top"/>
+        <Label Content="PRODUCTO PRECIO:" HorizontalAlignment="Left" Margin="36,75,0,0" VerticalAlignment="Top"/>
+        <Label Content="FECHA DE ALTA:" HorizontalAlignment="Left" Margin="36,101,0,0" VerticalAlignment="Top"/>
+        <Label Content="PRODUCTOS EXISTENTES:" HorizontalAlignment="Left" Margin="36,163,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtexistencias" HorizontalAlignment="Left" Margin="185,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtalta" HorizontalAlignment="Left" Margin="136,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtproprecio" HorizontalAlignment="Left" Margin="153,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtproid" HorizontalAlignment="Left" Margin="125,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnguardar" Content="Guardar" HorizontalAlignment="Left" Margin="107,243,0,0" VerticalAlignment="Top" Click="btnguardar_Click"/>
+        <Button x:Name="btneliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="185,243,0,0" VerticalAlignment="Top" Click="btneliminar_Click"/>
+        <Label Content="PRODUCTO NOMBRE:" HorizontalAlignment="Left" Margin="36,132,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtpronombre" HorizontalAlignment="Left" Margin="163,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="DESCRIPCION DEL PRODUCTO:" HorizontalAlignment="Left" Margin="36,0,0,0" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtdescripcion" HorizontalAlignment="Left" Margin="211,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="279" Height="18"/>
+
+    </Grid>
+</Window>
